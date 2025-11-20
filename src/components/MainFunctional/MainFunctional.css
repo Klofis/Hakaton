@@ -1,0 +1,16 @@
+.main-functional-block{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: absolute;
+    margin-top: 10vh;
+}
+.main-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    margin: 16px;
+    margin-bottom: 62px;
+}

@@ -1,0 +1,10 @@
+// config.ts
+export const OPTIMIZATION_CONFIG = {
+    MAX_IMAGE_DIMENSION: 2000,
+    THUMBNAIL_SIZE: 80,
+    BATCH_SIZE: 3,
+    DETECTION_CONFIDENCE: 0.4,
+    MAX_FACES_PER_IMAGE: 8,
+    DBSCAN_EPS: 0.53,
+    DBSCAN_MIN_POINTS: 2
+  } as const;

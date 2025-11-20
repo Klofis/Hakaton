@@ -71,3 +71,12 @@ export default defineConfig([
   },
 ])
 ```
+const OPTIMIZATION_CONFIG = {
+  MAX_IMAGE_DIMENSION: 640,
+  THUMBNAIL_SIZE: 80,
+  BATCH_SIZE: 4,
+  DETECTION_CONFIDENCE: 0.5,
+  MAX_FACES_PER_IMAGE: 8,
+  DBSCAN_EPS: 0.53,
+  DBSCAN_MIN_POINTS: 2
+} as const;
