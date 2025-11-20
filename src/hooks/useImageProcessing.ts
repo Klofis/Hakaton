@@ -5,6 +5,7 @@ import * as tf from '@tensorflow/tfjs';
 import type { FaceWithConfidence } from '../types';
 import { OPTIMIZATION_CONFIG } from '../config';
 
+
 export const useImageProcessing = () => {
   const createOptimizedImage = useCallback((file: File): Promise<HTMLImageElement> => {
     return new Promise((resolve, reject) => {
@@ -168,7 +169,6 @@ export const useImageProcessing = () => {
             facesWithConfidence.push({
               image: faceWithFrame,
               confidence: d.detection.score || 0,
-              detection: d.detection
             });
           }
           
