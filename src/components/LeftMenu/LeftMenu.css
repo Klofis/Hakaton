@@ -60,3 +60,8 @@
   width: 16.66666603088379px;
   height: 16.66666603088379px;
 }
+@media (max-width: 890px) {
+  .left-menu-main-block{
+display: none;
+  }
+}
